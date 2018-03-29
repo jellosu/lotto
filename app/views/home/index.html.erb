@@ -1,4 +1,10 @@
-<h1>Home#index</h1>
-<p>Find me in app/views/home/index.html.erb</p>
-<%= @numlists %> 
-<%= @numlist %> 
+<h1>로또당첨번호게임</h1>
+<%= @num%> 
+<h3><%= @num%>크게보기</h3>
+
+ <p>@num=(1..45).to_a .sample(7).sort </p>
+ <p>@num = 변수명 <br> {1..45} = 숫자범위지정 
+ <br> .to_a = 범위 배열로 전환해주는 함수
+  <br> .sample(7) = 랜덤추출
+   <br> .sort = 오름차순 정렬</p>
+ 
